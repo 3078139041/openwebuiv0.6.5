@@ -2,7 +2,7 @@
 
 Sometimes, its beneficial to host Ollama, separate from the UI, but retain the RAG and RBAC support features shared across users:
 
-# 威海政务大模型 Configuration
+# 政务大模型 Configuration
 
 ## UI Configuration
 

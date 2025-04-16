@@ -17,7 +17,7 @@ def version_callback(value: bool):
     if value:
         from open_webui.env import VERSION
 
-        typer.echo(f"威海政务大模型 version: {VERSION}")
+        typer.echo(f"政务大模型 version: {VERSION}")
         raise typer.Exit()
 
 

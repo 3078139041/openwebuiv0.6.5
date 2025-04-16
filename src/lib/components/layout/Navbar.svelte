@@ -31,7 +31,7 @@
 	const i18n = getContext('i18n');
 
 	export let initNewChat: Function;
-	export let title: string = $i18n.t('威海政务大模型');
+	export let title: string = $i18n.t('政务大模型');
 	export let shareEnabled: boolean = false;
 
 	export let chat;
