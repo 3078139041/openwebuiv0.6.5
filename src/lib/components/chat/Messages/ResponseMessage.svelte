@@ -1202,7 +1202,7 @@
 								{/if}
 
 								{#if !readOnly}
-									{#if !$temporaryChatEnabled && ($config?.features.enable_message_rating ?? true)}
+									<!-- {#if !$temporaryChatEnabled && ($config?.features.enable_message_rating ?? true)}
 										<Tooltip content={$i18n.t('Good Response')} placement="bottom">
 											<button
 												class="{isLastMessage
@@ -1309,7 +1309,7 @@
 												</svg>
 											</button>
 										</Tooltip>
-									{/if}
+									{/if} -->
 
 									<Tooltip content={$i18n.t('Regenerate')} placement="bottom">
 										<button
