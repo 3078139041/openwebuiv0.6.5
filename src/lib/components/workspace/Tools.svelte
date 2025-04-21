@@ -65,7 +65,7 @@
 			return null;
 		});
 
-		toast.success($i18n.t('Redirecting you to 政务大模型 Community'));
+		toast.success($i18n.t('Redirecting you to 威海政务大模型 Community'));
 
 		const url = 'https://openwebui.com';
 
@@ -164,7 +164,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Tools')} | {$i18n.t('政务大模型')}
+		{$i18n.t('Tools')} | {$i18n.t('威海政务大模型')}
 	</title>
 </svelte:head>
 
@@ -436,7 +436,7 @@
 	{#if $config?.features.enable_community_sharing}
 		<div class=" my-16">
 			<div class=" text-xl font-medium mb-1 line-clamp-1">
-				{$i18n.t('Made by 政务大模型 Community')}
+				{$i18n.t('Made by 威海政务大模型 Community')}
 			</div>
 
 			<a

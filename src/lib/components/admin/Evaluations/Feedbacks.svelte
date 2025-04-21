@@ -65,7 +65,7 @@
 	};
 
 	const shareHandler = async () => {
-		toast.success($i18n.t('Redirecting you to 政务大模型 Community'));
+		toast.success($i18n.t('Redirecting you to 威海政务大模型 Community'));
 
 		// remove snapshot from feedbacks
 		const feedbacksToShare = feedbacks.map((f) => {
@@ -268,7 +268,7 @@
 					}}
 				>
 					<div class=" self-center mr-2 font-medium line-clamp-1">
-						{$i18n.t('Share to 政务大模型 Community')}
+						{$i18n.t('Share to 威海政务大模型 Community')}
 					</div>
 
 					<div class=" self-center">

@@ -195,7 +195,7 @@
 </script>
 
 <svelte:head>
-	<title>#{channel?.name ?? 'Channel'} | 政务大模型</title>
+	<title>#{channel?.name ?? 'Channel'} | 威海政务大模型</title>
 </svelte:head>
 
 <div

@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Home')} | {$i18n.t('政务大模型')}
+		{$i18n.t('Home')} | {$i18n.t('威海政务大模型')}
 	</title>
 </svelte:head>
 
